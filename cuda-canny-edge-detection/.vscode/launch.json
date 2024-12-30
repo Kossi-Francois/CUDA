@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "CUDA C++: Attach",
+            "type": "cuda-gdb",
+            "request": "attach",
+            "processId": "${command:cuda.pickProcess}"  
+        },
+
+        {
+            "name": "CUDA C++: Launch",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [ "< ${fileDirname}/input.txt > ${fileDirname}/output.txt"],
+            "preLaunchTask": "CUDA C/C++: build active file",
+        }
+    ]
+}

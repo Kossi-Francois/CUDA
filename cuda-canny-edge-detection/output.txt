@@ -1,0 +1,5 @@
+image read:: /home/franfran/cuda/learning/cuda-course3-lastproject/lena.jpg|| Rows: 512 Columns: 512
+Image saved:: output_gauss.jpg
+Image saved:: output_cannyKx.jpg
+Image saved:: output_cannyKy.jpg
+Image saved:: output_canny.jpg
